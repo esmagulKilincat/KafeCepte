@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KafeCepte"
+        tools:targetApi="31">
+        <activity
+            android:name=".UyeLoginSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".UyeGirisSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".UyeKayitSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".ToplamSiparisSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".ParolaSifirlamaSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".SicakIceceklerSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".SogukIceceklerSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".TatlilarSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".SalatalarSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".MenuSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".KategorilerSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".ui.theme.KategorilerSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".kategorilerSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".DetaySayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".FeedRecyclerAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".AnaYemekSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".SiparisVermelerSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".UrunEkle"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSayfa"
+            android:exported="false" />
+        <activity
+            android:name=".AdminGirisSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".UyeSayfasi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.KafeCepte">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

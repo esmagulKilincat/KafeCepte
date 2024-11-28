@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007065010727",
+    "project_id": "kafecepte",
+    "storage_bucket": "kafecepte.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007065010727:android:d1e6d1e3f4a11c1bce3402",
+        "android_client_info": {
+          "package_name": "com.example.kafecepte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLxoS70ypZibVVRQNb3xGGQwnFBCsmfGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
